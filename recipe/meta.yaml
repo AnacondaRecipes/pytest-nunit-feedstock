@@ -1,5 +1,5 @@
 {% set name = "pytest-nunit" %}
-{% set version = "0.5.3" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3c298627b57debbd4bfe9d47604129f84f19ecdb7db36c63110af0ab4b9c13e7
+  sha256: c4a2b82ddc52f17c9b3966a76c764bf8d30c7d4502f343f1723da6434d21414e
 
 build:
   noarch: python
