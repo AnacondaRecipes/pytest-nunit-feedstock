@@ -1,12 +1,11 @@
-{% set name = "pytest-nunit" %}
 {% set version = "1.0.1" %}
 
 package:
-  name: {{ name|lower }}
+  name: pytest-nunit
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/p/pytest-nunit/pytest-nunit-{{ version }}.tar.gz
   sha256: 724d68d80bc3bb72c72d29ffff2e73c110fb4bf86cb72eb59d2479e206ab2893
 
 build:
@@ -20,7 +19,7 @@ requirements:
     - python >=3.6
   run:
     - attrs
-    - pytest >=3.5.0
+    - pytest >=4.6.0
     - python >=3.6
 
 test:
