@@ -17,13 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python {{ python_min }}
+    - python
     - setuptools
     - wheel
   run:
     - attrs
     - pytest >=4.6.0
-    - python >={{ python_min }}
+    - python
 
 test:
   imports:
@@ -31,7 +31,7 @@ test:
     - pytest_nunit.models
   requires:
     - pip
-    - python {{ python_min }}
+    - python
   commands:
     - pip check
 
