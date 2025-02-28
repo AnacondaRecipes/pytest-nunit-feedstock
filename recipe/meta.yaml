@@ -19,6 +19,7 @@ requirements:
     - pip
     - python {{ python_min }}
     - setuptools
+    - wheel
   run:
     - attrs
     - pytest >=4.6.0
@@ -36,8 +37,11 @@ test:
 
 about:
   home: https://github.com/pytest-dev/pytest-nunit
+  dev_url: https://github.com/pytest-dev/pytest-nunit
+  doc_source_url: https://github.com/pytest-dev/pytest-nunit
   summary: A pytest plugin for generating NUnit3 test result XML output
   license: MIT
+  license_family: MIT
   license_file: LICENSE
 
 extra:
