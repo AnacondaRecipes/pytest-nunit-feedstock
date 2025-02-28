@@ -36,7 +36,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/pytest-dev/pytest-nunit
+  home: https://pypi.org/project/pytest-nunit
   dev_url: https://github.com/pytest-dev/pytest-nunit
   doc_source_url: https://github.com/pytest-dev/pytest-nunit
   summary: A pytest plugin for generating NUnit3 test result XML output
